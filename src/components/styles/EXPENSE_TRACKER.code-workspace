@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"name": "expensetracker",
+			"path": "../../../../../hub/expensetracker"
+		}
+	],
+	"settings": {}
+}

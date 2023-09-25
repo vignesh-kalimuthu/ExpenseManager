@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.parent-main {
+    height: 800px;
+    background-color: #f8f8f8; 
+  }
+  
+ 
+  .dark-mode .parent-main {
+    background-color: #333; 
+  }

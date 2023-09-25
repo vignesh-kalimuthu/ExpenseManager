@@ -1,0 +1,256 @@
+.parent-main {
+  background-color: #eeeff0;
+  height: auto;
+}
+
+.main-with-sidebar {
+  margin-left: 40px;
+}
+.menu-text {
+  padding-right: 30px;
+}
+
+.main-without-sidebar {
+  margin-left: 0;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.main {
+  transition: margin-left 0.7s;
+  padding: 16px;
+  margin-left: 85px;
+}
+
+.form-control {
+  color: #6831ff;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.search {
+  border: 2px solid rgb(102, 111, 240);
+}
+
+.logo {
+  color: rgb(102, 111, 240);
+}
+
+.parent-sidebar {
+  height: 100%;
+  overflow-x: hidden;
+  transition: 2s;
+  position: relative;
+  white-space: nowrap;
+  font-size: large;
+  
+  font-weight: bold;
+}
+.color {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(102, 111, 240) 0%,
+    rgb(97, 97, 236) 100%
+  );
+}
+.text-color1 {
+  color: white;
+  font-weight: bold;
+}
+
+.padding {
+  padding-left: 40px;
+}
+.text-color {
+  color: white;
+  font: bold;
+}
+
+.sidebar-open {
+  width: 280px;
+}
+
+.sidebar-open .toggle-button {
+  transform: translateX(200px);
+  margin: 5px;
+}
+.menu-items:hover {
+  background-color: white;
+  color: rgb(102, 111, 240);
+
+  padding-right: 10px;
+  border-left: 3px solid #6831ff;
+}
+
+.sidebar-closed {
+  width: 125px;
+}
+
+
+
+.sidebar-closed .toggle-button {
+  transform: translateX(40px);
+  margin: 10px;
+}
+
+.toggle-button {
+  position: absolute;
+  border: none;
+  color: white;
+
+  transition: transform 0.1s;
+}
+
+.color1 {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(102, 111, 240) 0%,
+    rgb(97, 97, 236) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C621E5", endColorstr="#7D7CF9", GradientType=1 );
+}
+.color2 {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(136, 120, 195) 0%,
+    rgb(136, 120, 195) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C621E5", endColorstr="#7D7CF9", GradientType=1 );
+}
+.color3 {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(98, 238, 175) 0%,
+    rgb(108, 224, 173) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 );
+}
+.color4 {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(72, 212, 255) 0%,
+    rgb(118, 233, 245) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+}
+.cards-color {
+  background-color: #e9dfd2;
+}
+.card-color-individual {
+  border-bottom: 6px solid black;
+}
+
+.card-color-individual:hover {
+  background-color: rgb(102, 111, 240);
+  color: white;
+}
+
+.bg-color {
+  background-color: #eeeff0;
+}
+
+.card-color {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(72, 212, 255) 0%,
+    rgb(118, 233, 245) 100%
+  );
+
+
+  border-bottom: 4px solid black;
+}
+
+.AddWallet-card {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(192, 192, 192) 0%,
+    rgb(192, 192, 192) 100%
+  );
+  border: 2px dotted black;
+}
+
+.slider-color {
+  background-color: #d7d5d5;
+}
+
+.dropbtn {
+  background-color: rgb(102, 111, 240);
+
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.switch {
+  background-color: rgb(102, 111, 240);
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+}
+
+.switch:hover {
+  background-color: white;
+  color: rgb(102, 111, 240);
+  border: 2px solid rgb(102, 111, 240);
+  border-radius: 40px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-top: 4px solid #5c39fb;
+}
+
+.dropdown-content a {
+  color: rgb(102, 111, 240);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(102, 111, 240);
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: white;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(102, 111, 240);
+  color: white;
+}
